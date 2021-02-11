@@ -48,7 +48,7 @@ We currently support three models of radios.
 - [Heltec LoRa 32](https://heltec.org/project/wifi-lora-32/) - No GPS
   - [Official Heltec case](https://www.aliexpress.com/item/4001050707951.html)
   - [3D Printable case](https://www.thingiverse.com/thing:3125854)
-  
+
 Note: The GPS and LoRa stock antennas should be placed in a way, that the GPS antenna faces the sky and the LoRa antenna radiates 360 degrees horizontally. For better GPS reception you might want to [upgrade the GPS antenna](https://meshtastic.discourse.group/t/the-importance-of-gps-antennas-and-request-to-3d-case-documentation-people/1505) and to properly align the antennas you might want to upgrade to a LoRa antenna that can be adjusted to radiate into the right directions.
 
 **Make sure to get the frequency for your country**
@@ -188,6 +188,9 @@ Hard resetting via RTS pin...
 # Meshtastic Android app
 
 The companion (optional) Meshtastic Android app is [here](https://play.google.com/store/apps/details?id=com.geeksville.mesh&referrer=utm_source%3Dgithub-dev-readme). You can also download it on Google Play.
+
+# Pairing a Screenless T-Beam DEVICES
+If you have a T-Beam without a screen and are trying to connect to your phone, during the paring process you can press the middle button twice an the pairing code will change to 123456 use this code with you phone and the T-Beam will connect.
 
 # Python API
 
